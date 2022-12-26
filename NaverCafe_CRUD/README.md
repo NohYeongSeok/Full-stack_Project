@@ -8,7 +8,7 @@
 <hr>
 
 <h2>1. 프로젝트 개요</h2>
-<p>&nbsp;&nbsp;&nbsp;JSP, Servlet , OracleDB(sql)을 이용. 기본 CRUD(Create Read Update Delete)가 작동하는 홈페이지 구현</p>
+<p>&nbsp;&nbsp;&nbsp;JSP, Servlet , OracleDB(sql)을 이용. 커넥션 풀을 활용한 기본 CRUD(Create Read Update Delete)가 작동하는 홈페이지 구현</p>
 <br><br>
 <h2>2. 프로젝트 기능</h2>
 <p>&nbsp;&nbsp;&nbsp;1) 회원가입, 로그인, 로그아웃</p>
