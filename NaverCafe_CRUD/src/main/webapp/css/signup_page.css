@@ -1,0 +1,404 @@
+@charset "utf-8";
+html,body{
+    font-size: 62.5%;
+    background-color: rgb(245, 246, 247);
+    font-family: 'KoPubWorldDotum';
+}
+.w768{
+    width: 768px;
+    margin: 0 auto;
+}
+h1{
+    width: 240px;
+    height: 44px;
+    margin: 0 auto; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1 img{
+    width: 100%;
+}
+#chkNotice1{
+    line-height: 14px;
+    font-size: 1.2rem;
+    margin: 9px 0 -2px;
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+}
+#chkNotice2{
+    line-height: 14px;
+    font-size: 1.2rem;
+    margin: 9px 0 -2px;
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+}
+#chkNotice3{
+    line-height: 14px;
+    font-size: 1.2rem;
+    margin: 9px 0 -2px;
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+}
+#chkNotice4{
+    line-height: 14px;
+    font-size: 1.2rem;
+    margin: 9px 0 -2px;
+    display: block;
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+}
+
+.idclass_sec{
+    width: 460px;
+    height: 65px;
+    margin: 0 auto;
+}
+.idclass_sec h2{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.idclass{
+    width: 460px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.idclass input{
+    width: 334px;
+    height: 29px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.idclass span{
+    padding-left: 20px;
+    font-size: 1.5rem;
+    color: rgb(142, 142, 142);
+}
+
+
+.pwclass_sec{
+    width: 460px;
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+}
+.pwclass_sec h2{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.pwclass_sec h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+    background-repeat: no-repeat;
+    background-size: 125px 75px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: 13px;
+    top: 50%;
+}
+.pwclass{
+    width: 460px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.pwclass input{
+    width: 334px;
+    height: 29px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+
+.pwclass_sec2{
+    width: 460px;
+    height: 65px;
+    margin: 0 auto;
+    position: relative;
+}
+.pwclass_sec2 h2{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.pwclass_sec2 h2::after{
+    content: "";
+    display: inline-block;
+    background-image: url(https://static.nid.naver.com/images/ui/join/m_icon_pw_step.png);
+    background-repeat: no-repeat;
+    background-size: 125px 75px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    right: 13px;
+    background-position: -27px 0;
+}
+.pwclass2{
+    width: 460px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.pwclass2 input{
+    width: 334px;
+    height: 29px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+
+.nameclass_sec{
+    width: 460px;
+    height: 65px;
+    margin: 0 auto;
+}
+.nameclass_sec h2{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.nameclass{
+    width: 460px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.nameclass input{
+    width: 334px;
+    height: 29px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.nameclass span{
+    padding-left: 20px;
+    font-size: 1.5rem;
+    color: rgb(142, 142, 142);
+}
+
+.birthclass_sec{
+    width: 460px;
+    height: 65px;
+    margin: 0 auto;
+}
+.birthclass_sec h2{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.birthclass{
+    width: 146px;
+    height: 51px;
+    background-color: white;
+    border: 1px solid #dadada;
+}
+.birthclass input{
+    width: 116px;
+    height: 29px;
+    border: none;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.birthclassflex{
+    display: flex;
+    justify-content: space-between;
+}
+.birthclassflex select{
+    width: 116px;
+    height: 29px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.getderclass_sec{
+    width: 460px;
+    height: 65px;
+    margin: 0 auto;
+}
+.getderclass_sec h2{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.genderclass{
+    width: 460px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.genderclass select{
+    width: 440px;
+    height: 29px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+}
+
+
+.emailclass_sec{
+    width: 460px;
+    height: 65px;
+    margin: 0 auto;
+}
+.emailclass_sec h2{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.emailclass{
+    width: 460px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: white;
+}
+.emailclass input{
+    width: 334px;
+    height: 29px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.emailclass span{
+    color: #dadada;
+}
+
+
+.telclass_sec{
+    width: 460px;
+    height: 215px;
+    margin: 0 auto;
+}
+.telclass_sec h2{
+    font-size: 1.4rem;
+    color: #000000;
+    margin-top: 19px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.telclass{
+    width: 460px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.telclass select{
+    width: 440px;
+    height: 29px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.telclass input[name=tel]{
+    width: 335px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+.telclass input[type=button]{
+    width: 115px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: #03c75a;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: white;
+    outline: none;
+}
+.tel_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.tel_flex>input:first-child {
+	width:100%;
+}
+.telclass input[name=tel_chk]{
+    width: 460px;
+    height: 51px;
+    border: 1px solid #dadada;
+    background-color: #f7f7f7;
+    padding-left: 10px;
+    outline: none;
+}
+input[type=submit]{
+    width: 460px;
+    height: 53px;
+    border: none;
+    background-color: #03c75a;
+    color: white;
+    font-size: 1.8rem;
+    padding: 15px 0px;
+}
+.submitsec{
+    margin: 0 auto;
+    text-align: center;
+}
+.submitsec>input {
+	cursor: pointer;
+}
+footer{
+    margin-top: 65px;
+    width: 100%;
+    text-align: center;
+    color: #888888;
+    font-size: 1.2rem;
+}
+footer>p:first-child{
+    margin-bottom: 15px;
+}
+footer p:last-child{
+    margin-bottom: 40px;
+}
+footer p img{
+    width: 75px;
+    height: 15px;
+}
+footer span{
+    color: #000000;
+    font-weight: bold;
+}

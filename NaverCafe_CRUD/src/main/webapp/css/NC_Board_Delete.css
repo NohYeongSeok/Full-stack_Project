@@ -1,0 +1,114 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    src: url('../font/AppleSDGothicNeoM.ttf') format('truetype');
+}
+#BD_wrap {
+    margin: 0 auto;
+    font-family: 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', '돋움', 'dotum', sans-serif;
+}
+.w460_bd {
+    width: 460px;
+    margin: 0 auto;
+}
+/* Header */
+.BD_header {
+    margin-bottom: 80px;
+}
+.BD_logo {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.BD_logo img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Main */
+.BD_content {
+    border: 1px solid #c6c6c6;
+    border-radius: 6px;
+    padding: 20px 30px;
+    margin-bottom: 50px;
+}
+.BD_content_header h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.BD_content_header {
+    margin-bottom: 40px;
+}
+.BD_form p {
+    color: #8c8c8c;
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+.BD_form_pw {
+    margin-bottom: 10px;
+    position: relative;
+}
+.BD_form input {
+    font-size: 16px;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    padding: 14px 20px;
+    padding-left: 35px;
+}
+.BD_form_pw_icon {
+    background-image: url("../image/BD_icons.png");
+    background-size: 266px 225px;
+    background-position: -129px -203px;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    z-index: 100;
+}
+
+.BD_form_pw input:focus+.BD_form_pw_icon{
+    background-position: -111px -203px;
+}
+.BD_form_pw input:focus {
+    border: 1px solid #00c463;
+}
+
+.BD_Dbtn {
+    cursor: pointer;
+    background: #00c463;
+    color: #fff;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding-left: 20px !important;
+}
+
+.BD_reset {
+    text-align: center;
+    font-size: 15px;
+    color: #888;
+    margin-bottom: 160px;
+}
+
+footer{
+    margin-top: 65px;
+    width: 100%;
+    text-align: center;
+    color: #888888;
+    font-size: 12px;
+}
+footer>p:first-child{
+    margin-bottom: 15px;
+}
+footer p:last-child{
+    margin-bottom: 40px;
+    line-height: 15px;
+}
+footer p img{
+    width: 75px;
+    height: 15px;
+}
+footer span{
+    color: #000000;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+footer{
+	width: 1080px;
+    height:67px;
+    margin-top: 60px;
+    padding:24px 90px 24px 0;
+    font-size: 13px;
+}
+footer hr{
+	width: 1080px;
+}
+.footer{
+	width: 1080px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+.footer p:nth-child(2){
+    width:800px;
+}
+
+.footer p:nth-child(1){
+    font-weight: 700;
+}
+.footer p:nth-child(3){
+    font-weight: 700;
+}

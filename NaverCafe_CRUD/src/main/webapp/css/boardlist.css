@@ -1,0 +1,207 @@
+@charset "utf-8";
+body {
+    font-family: "Apple SD Gothic Neo", "맑은 고딕", "Malgun Gothic", 돋움, dotum, sans-serif;
+}
+.w1080 {
+    width: 1080px;
+    margin: 0 auto;
+}
+#boardlist_wrap {
+    width: 860px;
+    margin: 0 auto;
+}
+.boardlist_cb {
+    margin-top: 20px;
+}
+.boardlist_tit {
+    padding: 0 0 8px;
+}
+.boardlist_tit h3 {
+    float: left;
+    color:  #000;
+    font-weight: bold;
+    font-size: 22px;
+}
+.boardlist_list thead th {
+    text-align: center;
+    line-height: 37px;
+    color: #4e4e4e;
+    border-bottom: 1px solid #f2f2f2;
+}
+.boardlist_tit h3 a:hover {
+    color: #000;
+}
+.boardlist_list_area {
+    padding: 6px 0 10px;
+    margin: 10px 0;
+}
+.boardlist_total  {
+    margin: 8px 0 0 0;
+    font-size: 13px;
+    vertical-align: top;
+    font-weight: 400;
+}
+.boardlist_style  {
+    float: right;
+}
+.boardlist_style ul li {
+    float: left;
+    font-size: 13px;
+}
+.boardlist_style ul li:first-child {
+    padding-left: 0;
+}
+.boardlist_style ul li:first {
+    float: left;
+}
+.boardlist_list {
+    border-top: 2px solid #000;
+    font-size: 13px;
+}
+.boardlist_list tr {
+    height: 37px;
+}
+.boardlist_td div {
+    padding: 4px 18px 4px 8px;
+    width: 560px;
+    
+}
+.boardlist_td div a {
+    color: #333333;
+    line-height: 28px;
+}
+.boardlist_id {
+    padding: 4px 7px;
+    width: 120px;
+    text-align: center;
+}
+.boardlist_date {
+    color: #666666;
+    padding: 4px 7px;
+    width: 100px;
+    text-align: center;
+}
+.boardlist_cnt {
+    color: #666666;
+    padding: 4px 7px;
+    width: 80px;
+    text-align: center;
+}
+.boardlist_list tr td {
+    border-bottom: 1px solid #f2f2f2;
+}
+.boardlist_dot span a {
+    font-size: 11px;
+    margin-right: 19px;
+}
+
+.boardlist_prev_next {
+    text-align: center;
+    border-color: #e5e5e5;
+}
+.boardlist_prev_next a.on {
+    border: solid 1px #e5e5e5;
+    background-color: #fff;
+    color: #03c75a;
+}
+.boardlist_prev_next a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 24px;
+    font-family: arial, sans-serif; 
+}
+.boardlist_prev_next {
+    margin-top: 32px;
+    height: 40px;
+    padding-top: 16px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #c8c8c8;
+    padding-bottom: 32px;
+}
+.boardlist_select {
+    width: 142px;
+}
+#board_title {
+    font-size: 13px;
+    border: 1px solid #c8c8c8;
+    display: block;
+    position: relative;
+    height: 34px;
+    padding: 0 36px 0 12px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: right;
+}
+.boardlist_list_area i,
+.boardlist_text {
+    margin-left: 10px;
+    float: left;
+    padding: 2px 0 0 8px;
+}
+.boardlist_list_area li:last-child {
+    margin-left: 20px;
+}
+#board_list_ae {
+    float: right;
+    width: 80px;
+    height: 20px;
+    border: 1px solid #e6e6e6;
+}
+a:hover {
+    text-decoration:none;
+    color: #000;
+}
+
+.boardlist_select {
+    float: left;
+    margin-right: 20px;
+}
+.boardlist {
+    padding: 16px;
+    background-color: #f9f9f9;
+}
+.boardlist_input {
+    float: left;
+    border: 1px solid #e6e6e6;
+    height: 34px;
+    font-size: 15px;
+}
+.boardlist_input>input {
+	height: 32px;
+	padding-left: 5px;
+}
+.boardlist_btn button {
+    display: inline-block;
+    width: 56px;
+    height: 34px;
+    background-color: #03c75a;
+    border: 0;
+    color: #fff;
+}
+.boardlist_btn button a:hover {
+    color: #fff;
+}
+#board_title option {
+    padding: 20px;
+}
+
+.boardlist_input input::placeholder {
+    font-size: 13px; 
+}
+.boardlist_checkbox a:hover {
+    color: #03c75a;
+}
+
+/* 추가 */
+.boardlist_dot>span {	
+	width: 74px;
+	display: inline-block;
+}

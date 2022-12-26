@@ -1,0 +1,496 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Apple SD Gothic Neo';
+    src: url('../font/AppleSDGothicNeoM.ttf') format('truetype');
+}
+#boardUpdate_wrap {
+    margin: 0 auto;
+    font-family: 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', '돋움', 'dotum', sans-serif;
+}
+.w1080_bu {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* Header */
+.BU_header {
+    border-bottom: 1px solid #000;
+}
+/* 헤더 GNB */
+.BU_header_list {
+    display: flex;
+    padding: 14px 24px;    
+    border: 1px solid #e5e5e5;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.BU_header_list li {
+    position: relative;
+    padding-left: 22px;
+    font-size: 13px;
+}
+.BU_header_list li::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 10px;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #A9A9A9;
+}
+.BU_header_list li:first-child {
+    padding-left: 0;
+}
+.BU_header_list li:first-child::before {
+    display: none;
+}
+.BU_header_list li a:hover {
+    text-decoration: underline;
+}
+
+/* 헤더 타이틀 */
+.BU_header_title {
+    margin-bottom: 16px;
+}
+.BU_header_title h2 {
+    font-size: 22px;
+    font-weight: bold;
+    float: left;
+    line-height: 36px;
+}
+.BU_header_title_submitBox {
+    float: right;
+}
+.submitBox_temporary {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.submitBox_temporary > button {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', '돋움', 'dotum', sans-serif;
+}
+.submitBox_temporary span {
+    color: #ccc;
+    padding: 0 10px;
+}
+.submitBox_submit {
+    float: right;
+    text-align: center;
+    font-size: 13px;
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 36px;
+    background: rgba(3, 199, 90, 0.12);
+}
+.submitBox_submit > button {
+    color: #009f47;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    font-family: 'Apple SD Gothic Neo', '맑은 고딕', 'Malgun Gothic', '돋움', 'dotum', sans-serif;
+    font-weight: bold;
+}
+
+/* Main */
+.BU_main_wrap {
+    padding-top: 12px;
+    padding-bottom: 50px;
+    float: left;
+}
+.BU_form {
+    width: 862px;
+}
+/* 게시판 종류 선택 */
+.BU_main_tag {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 12px;
+}
+.BU_main_tag li {
+    display: flex;
+    margin-right: 30px;
+}
+.BU_main_tag li:first-child {
+    margin-left: 15px;
+}
+.BU_main_tag li input {
+    accent-color: #009f47;
+    width: 15px;
+}
+/* 글 제목 */
+.BU_main_title {
+    height: 40px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    margin-bottom: 12px;
+}
+.BU_main_title input {
+    font-size: 15px;
+    width: 840px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    z-index: 10;
+}
+
+/* 컨텐츠 아이콘 */
+.BU_main_icons {
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+}
+.BU_content_icon {
+    background-image: url(../image/icons.png);
+    background-repeat: no-repeat;
+    background-size: 608px 585px;
+    width: 20px;
+    height: 20px;
+    margin: 8.5px 12px;
+}
+.BU_main_icons > ul {
+    display: flex;
+    padding: 7px 3px;
+
+}
+.BU_main_icons > ul > li {
+    width: 54px;
+    height: 54px;
+    padding-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.BU_main_icons > ul > li > span {
+    color: #979797;
+    font-size: 11px;
+}
+.BU_main_icons > ul > li:hover > span {
+    color: #03c75a;
+}
+
+
+/* 아이콘 위치 모음 */
+.BU_picture {
+    background-position: -374px -565px;
+}
+.BU_main_icons > ul > li:nth-child(1):hover .BU_picture {
+    background-position: -396px -565px;
+}
+.BU_SNS_picture {
+    background-position: -587px -468px;
+}
+.BU_main_icons > ul > li:nth-child(2):hover .BU_SNS_picture {
+    background-position: -587px -446px;
+}
+.BU_video {
+    background-position: -242px -565px;
+}
+.BU_main_icons > ul > li:nth-child(3):hover .BU_video {
+    background-position: -220px -565px;
+}
+.BU_Sticker {
+    background-position: -286px -474px;
+}
+.BU_main_icons > ul > li:nth-child(4):hover .BU_Sticker {
+    background-position: -264px -474px;
+}
+.BU_quote {
+    background-position: -418px -474px;
+}
+.BU_main_icons > ul > li:nth-child(5):hover .BU_quote {
+    background-position: -440px -474px;
+}
+.BU_line {
+    background-position: -330px -565px;
+}
+.BU_main_icons > ul > li:nth-child(6):hover .BU_line {
+    background-position: -352px -565px;
+}
+.BU_file {
+    background-position: -506px -565px;
+}
+.BU_main_icons > ul > li:nth-child(7):hover .BU_file {
+    background-position: -484px -565px;
+}
+.BU_link {
+    background-position: -587px -160px;
+}
+.BU_main_icons > ul > li:nth-child(8):hover .BU_link {
+    background-position: -587px -182px;
+}
+.BU_site {
+    background-position: -587px -204px;
+}
+.BU_main_icons > ul > li:nth-child(9):hover .BU_site {
+    background-position: -587px -226px;
+}
+.BU_word {
+    background-position: -587px -424px;
+}
+.BU_main_icons > ul > li:nth-child(10):hover .BU_word {
+    background-position: -587px -402px;
+}
+.BU_vote {
+    background-position: -286px -565px;
+}
+.BU_main_icons > ul > li:nth-child(11):hover .BU_vote {
+    background-position: -264px -565px;
+}
+.BU_schedule {
+    background-position: -587px -380px;
+}
+.BU_main_icons > ul > li:nth-child(12):hover .BU_schedule {
+    background-position: -587px -358px;
+}
+.BU_table {
+    background-position: -374px -474px;
+}
+.BU_main_icons > ul > li:nth-child(13):hover .BU_table {
+    background-position: -352px -474px;
+}
+.BU_code {
+    background-position: -418px -565px;
+}
+.BU_main_icons > ul > li:nth-child(14):hover .BU_code {
+    background-position: -587px -490px;
+}
+.BU_formula {
+    background-position: -440px -565px;
+}
+.BU_main_icons > ul > li:nth-child(15):hover .BU_formula {
+    background-position: -462px -565px;
+}
+
+/* 컨텐츠 툴바 */
+.BU_main_content_toolbar {
+    height: 32px;
+    background: #fbfbfb;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    display: flex;
+    padding-left: 7px;
+    font-size: 13px;
+}
+.BU_main_content_toolbar li {
+    cursor: pointer;    
+}
+.BU_main_content_toolbar_fst {
+    display: flex;
+    align-items: center;
+}
+.BU_main_content_toolbar_fst::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: #e5e5e5;
+    margin-right: 10px;
+}
+.BU_main_content_toolbar_snd {
+    display: flex;
+    align-items: center;
+}
+.BU_main_content_toolbar_snd::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: #e5e5e5;
+    margin-right: 10px;
+}
+.BU_main_content_toolbar_thd {
+    display: flex;
+    align-items: center;
+}
+.BU_main_content_toolbar_thd::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: #e5e5e5;
+    margin-right: 10px;
+}
+.BU_main_content_toolbar_fth {
+    display: flex;
+}
+.BU_main_content_toolbar_fst li {
+    padding-left: 12px;
+    padding-right: 25px;
+    padding-top: 1px;
+}
+.BU_main_content_toolbar_snd li {
+    width: 32px;
+    height: 32px;
+    padding-right: 12px;
+    padding-top: 6px;
+}
+.BU_main_content_toolbar_thd li {
+    width: 32px;
+    height: 32px;
+    padding-right: 12px;
+    padding-top: 6px;
+}
+.BU_main_content_toolbar_fth li {
+    width: 32px;
+    height: 32px;
+    padding-right: 12px;
+    padding-top: 6px;
+}
+
+/* 툴바아이콘 위치 정리 */
+.BU_toolbar_icon {
+    background-image: url(../image/icons.png);
+    background-repeat: no-repeat;
+    background-size: 608px 585px;
+    width: 21px;
+    height: 21px;
+}
+
+.BU_toolbar_bold {
+    background-position: -184px -496px;
+}
+.BU_main_content_toolbar_snd > li:nth-child(1):hover .BU_toolbar_bold {
+    background-position: -161px -496px;
+}
+.BU_toolbar_italic {
+    background-position: -230px -542px;
+}
+.BU_main_content_toolbar_snd > li:nth-child(2):hover .BU_toolbar_italic {
+    background-position: -207px -542px;
+}
+.BU_toolbar_underline {
+    background-position: -564px -207px;
+}
+.BU_main_content_toolbar_snd > li:nth-child(3):hover .BU_toolbar_underline {
+    background-position: -564px -230px;
+}
+.BU_toolbar_cancelLine {
+    background-position: 0 -542px;
+}
+.BU_main_content_toolbar_snd > li:nth-child(4):hover .BU_toolbar_cancelLine {
+    background-position: -23px -542px;
+}
+.BU_toolbar_justify {
+    background-position: 0 -496px;
+}
+.BU_main_content_toolbar_thd > li:nth-child(1):hover .BU_toolbar_justify {
+    background-position: -502px -179px;
+}
+.BU_toolbar_lineHeight {
+    background-position: -276px -542px;
+}
+.BU_main_content_toolbar_thd > li:nth-child(2):hover .BU_toolbar_lineHeight {
+    background-position: -253px -542px;
+}
+.BU_toolbar_specialLetter {
+    background-position: -46px -542px;
+}
+.BU_main_content_toolbar_fth > li:nth-child(1):hover .BU_toolbar_specialLetter {
+    background-position: -69px -542px;
+}
+.BU_toolbar_link {
+    background-position: -322px -542px;
+}
+.BU_main_content_toolbar_fth > li:nth-child(2):hover .BU_toolbar_link {
+    background-position: -299px -542px;
+}
+
+/* 컨텐츠 */
+.BU_main_content {
+    height: 483px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    padding: 50px 30px 15px;
+}
+.BU_main_content textarea {
+    height: 100%;
+    font-size: 15px;
+    resize: none;
+}
+
+/* 어사이드 */
+.BU_aside_wrap {
+    font-size: 12px;
+    color: #323232;
+    width: 200px;
+    height: 367px;
+    float: right;
+    margin-top: 12px;
+}
+
+.BU_aside_fstBox {
+    display: flex;
+    background: #f9f9fa;
+    height: 55px;
+    padding: 20px;
+    line-height: 15px;
+    margin-bottom: 12px;
+}
+.BU_aside_fstBox input {
+    width: 14px;
+    height: 14px;
+    accent-color: white;
+}
+
+.BU_aside_sndBox {
+    padding: 20px;
+    background: #f9f9fa;
+    margin-bottom: 12px;
+}
+.BU_aside_sndBox h5 {
+    margin-bottom: 16px;
+}
+.BU_aside_sndBox p {
+    position: relative;
+    padding-left: 20px;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+.BU_aside_sndBox p:last-child {
+    margin-bottom: 0;
+}
+.BU_aside_sndBox p::before {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid #979797;
+    border-width: 0 0 1px 1px;
+    content: "";
+}
+
+.BU_aside_thdBox {
+    padding: 20px;
+    background: #f9f9fa;
+}
+.BU_aside_thdBox ul li {
+    display: flex;
+    margin-bottom: 10px;
+}
+.BU_aside_thdBox input {
+    width: 14px;
+    height: 14px;
+    accent-color: white;
+}
+
+.BU_questionMark {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    background: url("../image/ico-write-info.svg") no-repeat;
+    background-size: 12px;
+}

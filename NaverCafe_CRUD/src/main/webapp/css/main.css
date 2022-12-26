@@ -1,0 +1,82 @@
+@charset "utf-8";
+main{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+}
+.index_right{
+  width:860px;
+}
+.index_top_top{
+  padding: 15px 12px;
+  border: 3px solid silver;
+}
+.index_top{
+  height:260px;
+  background: no-repeat url(../images/header/header_bg.svg);
+  background-position: 85% 20%;
+  padding:50px 0 23px 46px;
+}
+.index_top h1{
+  font-size: 33px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+.index_top p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+
+.index_full_view{
+  font-size: 13px;
+}
+.index_full_view_top{
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+}
+.index_full_view_top{
+  margin-top: 30px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid gray;
+  height: 30px;
+}
+.index_full_view div h2{
+  font-size: 16px;
+  font-weight: 600;
+}
+.list{
+  height: 36.5px;
+  padding: 8px;
+  border-bottom: 1px solid silver;
+}
+
+.list td:nth-child(1){
+  width: 560px;
+  padding:4px 18px 4px 8px;
+}
+.list td:nth-child(2){
+  width:120px;
+  padding:4px 7px;
+}
+.list td:nth-child(3){
+  width:100px;
+  padding:4px 7px;
+}
+.list td:nth-child(4){
+  width: 80px;
+  padding:4px 7px;
+}
+.list td i{
+  font-size: 0.1px;
+  padding: 8px;
+}
+
+.index_full_view_main {
+	border-collapse: collapse !important;
+}
+.index_full_view_main tr {
+	border-bottom: 1px solid #f2f2f2;
+}
