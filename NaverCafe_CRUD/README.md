@@ -15,7 +15,6 @@
 <p>&nbsp;&nbsp;&nbsp;2) 게시판 종류별로 조회</p>
 <p>&nbsp;&nbsp;&nbsp;3) 게시글 작성, 확인, 수정, 삭제 (수정, 삭제는 작성자만 가능)</p>
 <br><br>
-<hr>
 <h2>3. 프로젝트 시연</h2>
 <div align=center>
     <h3>3-1. 회원가입</h3>
