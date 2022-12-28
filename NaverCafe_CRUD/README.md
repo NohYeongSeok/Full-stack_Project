@@ -24,19 +24,24 @@
     <h3>3-2. 로그인 실패, 로그인 성공, 로그아웃</h3>
     <p>로그인 - index_login.jsp > LoginCtrl.java > GetBoardCtrl.java > cafe_main.jsp</p>
     <p>로그아웃 - cafe_main.jsp > logoutCtrl.java > index_login.jsp</p>
+    <img src="https://user-images.githubusercontent.com/111558171/209742823-d01877ec-d45f-4e6c-ac1d-3c07969ea1b0.gif" alt="로그인 실패, 성공, 로그아웃" width="700">
     <hr>
     <h3>3-3. 게시판 종류별 조회</h3>
     <p>cafe_main.jsp > Get[Notice, Free, Question, Report]BoardCtrl.java > board_[Notice, Free, Question, Report].jsp</p>
+    <img src="https://user-images.githubusercontent.com/111558171/209742887-2ac3288f-98f3-4928-9024-d69f12f190e9.gif" alt="게시판 종류별 조회" width="700">
     <hr>
     <h3>3-4. 게시글 작성, 확인</h3>
-    <p>cafe_main.jsp > addBaord.jsp > AddBoardCtrl.java</p>
+    <p>게시글 작성 - cafe_main.jsp > addBaord.jsp > AddBoardCtrl.java</p>
+    <p>게시글 확인 - cafe_main.jsp > GetOneBoardCtrl.java > getOneBoard.jsp</p>
+    <img src="https://user-images.githubusercontent.com/111558171/209743006-75060d9f-1719-40e7-b448-0ceddbc6e592.gif" alt="게시글 작성, 확인" width="700">
     <hr>
     <h3>3-5. 게시글 수정</h3>
-    <p>게시글 확인 - cafe_main.jsp > GetOneBoardCtrl.java > getOneBoard.jsp</p>
-    <p>게시글 수정 - getOneBoard.jsp > GetUpdateBoard.java > getUpdateBoard.jsp > UpdateBoardCtrl.java > cafe_main.jsp</p>
+    <p>getOneBoard.jsp > GetUpdateBoard.java > getUpdateBoard.jsp > UpdateBoardCtrl.java > cafe_main.jsp</p>
+    <img src="https://user-images.githubusercontent.com/111558171/209743022-d33fda8a-427d-4822-a0e8-83c32d0b800a.gif" alt="게시글 수정" width="700">
     <hr>
     <h3>3-6. 게시글 삭제 실패, 삭제 성공</h3>
     <p>getOneBoard.jsp > deleteBoard.jsp > DeleteBoardCtrl.java</p>
+    <img src="https://user-images.githubusercontent.com/111558171/209743030-000a0c7f-5c30-4a0a-9a6e-e791c509de63.gif" alt=" 게시글 삭제 실패, 삭제 성공" width="700">
     <hr>
 </div>
 
