@@ -27,10 +27,10 @@
     <h3>3-3. 게시판 종류별 조회</h3>
     <p>cafe_main.jsp > Get[Notice, Free, Question, Report]BoardCtrl.java > board_[Notice, Free, Question, Report].jsp</p>
     <hr>
-    <h3>3-4. 게시글 작성</h3>
+    <h3>3-4. 게시글 작성, 확인</h3>
     <p>cafe_main.jsp > addBaord.jsp > AddBoardCtrl.java</p>
     <hr>
-    <h3>3-5. 게시글 확인, 수정</h3>
+    <h3>3-5. 게시글 수정</h3>
     <p>게시글 확인 - cafe_main.jsp > GetOneBoardCtrl.java > getOneBoard.jsp</p>
     <p>게시글 수정 - getOneBoard.jsp > GetUpdateBoard.java > getUpdateBoard.jsp > UpdateBoardCtrl.java > cafe_main.jsp</p>
     <hr>
