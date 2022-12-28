@@ -18,7 +18,7 @@
 <h2>3. 프로젝트 시연</h2>
 <div align=center>
     <h3>3-1. 회원가입</h3>
-    (https://user-images.githubusercontent.com/111558171/209742019-183da129-8f85-4195-857c-c86429638b8f.webm)
+    https://github.com/NohYeongSeok/Full-stack_Project/issues/1#issue-1512302415
     <p>index_login.jsp > addUser.jsp > AddUserCtrl.java > index_login.jsp</p>
     <hr>
     <h3>3-2. 로그인 실패, 로그인 성공, 로그아웃</h3>
