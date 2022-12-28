@@ -39,4 +39,3 @@
     <hr>
 </div>
 
-<a href="https://kr.freepik.com/free-psd/computer-screen-mock-up_1153556.htm#query=%EB%AA%A8%EB%8B%88%ED%84%B0&position=24&from_view=search&track=sph">작가 CosmoStudio</a> 출처 Freepik
