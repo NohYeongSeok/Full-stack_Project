@@ -13,9 +13,9 @@
 <h2>2. 프로젝트 개발 환경</h2>
 <p>
   &nbsp;&nbsp;&nbsp;java 1.8 (Jdk. 1.8)<br>
-  Oracle 11g<br>
-  apache-tomcat-8.5.78<br>
-  eclipse 2021-06
+  &nbsp;&nbsp;&nbsp;Oracle 11g<br>
+  &nbsp;&nbsp;&nbsp;apache-tomcat-8.5.78<br>
+  &nbsp;&nbsp;&nbsp;eclipse 2021-06
 </p>
 <br><br>
 
